@@ -39,89 +39,9 @@ Esta es una propuesta y el equipo puede cambiarla. Si cambia, hay que actualizar
 
 ---
 
-## 2. Reparto del trabajo por entregable
+## 2. Orden de trabajo
 
-**R** = lo hace · **A** = aprueba y responde · **Apoyo** = aporta insumos.
-
-### Sprint de recuperación · S5 · lun 19 → vie 23-oct (E.01–E.06, unas 85 h de equipo)
-
-| Entregable / parte | R | A | Apoyo | Horas aprox. |
-|---|---|---|---|---|
-| E.01 Acta (v1.0 + v1.1 juntas; ELI ya asignada) | Guillermo | Guillermo | Todos firman | 2 |
-| E.02 A.1 Compromiso (contexto, declaración, objetivos, presupuesto de la ficha) | Guillermo | Guillermo | — | 3 |
-| E.02 A.2 Alcance (procesos, sedes, sistemas, exclusiones, LPDP y Ley de Ciberseguridad) + A.3 | Joseph | Guillermo | Erick | 3 |
-| **BIA_P01** Censo de procesos (los 4 críticos + procesos de soporte) | Erick | Erick | Todos | 3 |
-| **BIA_P05** Pesos, precalificación a 24 h, puntajes, clases y lista priorizada | Erick | Erick | Guillermo | 3 |
-| **BIA_P02 + P03 + P04 — TMS** (gestión de transporte) | Javier | Erick | — | 7 |
-| **BIA_P02 + P03 + P04 — WMS** (gestión de almacenes) | Sebastian | Erick | — | 7 |
-| **BIA_P02 + P03 + P04 — Plataforma aduanal** | Ali | Erick | — | 7 |
-| **BIA_P02 + P03 + P04 — Portal de visibilidad** (+ SLE de exposición de datos) | Joseph | Erick | — | 7 |
-| **BIA_P06** Supuestos, SPOF (mínimo 2) y brechas | Erick | Erick | Dueños de proceso | 2 |
-| **BIA_P07** Informe ejecutivo (secciones 8–11 se llenan en la v1.1) | Guillermo | Erick | Erick | 3 |
-| **E.03** Consolidación B.1–B.5 + **v1.1** (B.4 con los R-nn) | Guillermo | Erick | Dueños de proceso | 3 |
-| **E.04** Inventario de activos (12–20, A-nn) + **v1.1** (columna 8) | Sebastian | Sebastian | Dueños de proceso | 6 |
-| **E.05** Apetito, escalas, D.6 (SLE·ARO·ALE·ACC·ROSI) y D.7 | Erick | Erick | Guillermo (números) | 8 |
-| **E.05** Registro D.5 (≥12 riesgos), ejes de amenaza y mapa de calor D.5-bis | Javier | Erick | Cada dueño de proceso propone 3 riesgos de su proceso | 10 |
-| **E.06** RACI con el organigrama de ELI + actividades del sector y de E.05 | Joseph | Joseph | Sebastian | 5 |
-| Checklist de cierre y revisión de todo lo anterior | Ali | Ali | — | 4 |
-
-**Si la precalificación de BIA_P05 deja un proceso como «importante» o «diferible»**, ese proceso no lleva P02/P03/P04 completos. La persona que lo tenía asignado pasa a ayudar en E.04 o E.05. Ojo: el **Portal** trata datos personales (60 000 destinatarios), así que aunque salga «importante» lleva las **secciones 3, 8 y 9 de P02** con su SLE de exposición.
-
-**Hitos internos del sprint** (cada día cierra con un push a `main` vía PR):
-
-| Día | Debe quedar listo |
-|---|---|
-| **Lun 19** | ELI registrada y consulta enviada al docente · repo funcionando · **todos leyeron `registros/ficha_ELI.md`** · E.01 · BIA_P01 |
-| **Mar 20** | BIA_P05 (confirma los procesos críticos) · E.02 v1.0 · arranque de P02 por proceso |
-| **Mié 21** | P02/P03/P04 de cada proceso crítico · BIA_P06 · borrador de E.04 · cada dueño de proceso entrega sus 3 riesgos propuestos |
-| **Jue 22** | E.03 + BIA_P07 · E.05 completo (D.5, mapa, D.6, D.7) · E.06 · columna 8 de E.04 · E.02 A.3 |
-| **Vie 23** | Mañana: checklist de cierre (Ali) · **subir todo a Moodle** · los archivos subidos se copian a `entregas/H3/` |
-
-### S6 · lun 26 → vie 30-oct · E.07 (6 controles) + ensamblaje parcial de E.11
-
-| Tarea | R | A |
-|---|---|---|
-| **Lun 26: selección de los 6 controles** (F.0) desde los Críticos/Altos de E.05, con los criterios de desempate de la guía | Sebastian + Erick | Sebastian |
-| **Control #1** (el de mayor lugar en F.0) | Guillermo | Sebastian |
-| **Control #2** | Erick | Sebastian |
-| **Control #3** | Javier | Sebastian |
-| **Control #4** | Sebastian | Sebastian |
-| **Control #5** | Joseph | Sebastian |
-| **Control #6** | Ali | Sebastian |
-| Ensamblaje parcial de E.11, secciones 1–7, con H1–H3 corregidos (~9 h) | Joseph | Joseph |
-| Revisión cruzada de los 6 controles y checklist de cierre | Ali (y cada quien revisa el control del siguiente: 1→2→…→6→1) | Ali |
-
-Cada control lleva **F.1** (todas sus salvaguardas IG3), **F.2** política, **F.3** SOP con evidencia y **F.4** de 2 a 4 controles técnicos, administrativos y físicos, con el CIS Benchmark de la versión de la ficha. Son unas 7 h por control. Se entregan como **6 archivos**: `E07_Desarrollo_Control_CIS_<Control>_<Equipo>`.
-
-### S7 · lun 2 → vie 6-nov · E.08 baseline + E.09 indicadores
-
-- **E.08:** los **12 controles CIS que no quedaron en E.07** se ordenan de menor a mayor número y se reparten **2 por persona**, en este orden: Guillermo, Erick, Javier, Sebastian, Joseph, Ali, y se repite la vuelta. **Sebastian** consolida, comprueba **IG1 = 56 y total = 153** y arma el resumen por estado.
-- **E.09:** **cada persona escribe el indicador (ficha H.1) de SU control de E.07**, usando como fuente la evidencia de su propio SOP. **Ali** escribe la propuesta de auditoría H.2. Como ELI tiene auditoría interna de una sola persona, hay que declarar la independencia del auditor.
-
-### S8 · lun 9 → mié 11-nov · E.10 + E.11 · defensa 12–14-nov
-
-| Tarea | R | A |
-|---|---|---|
-| E.10: cada persona agrupa en iniciativas las filas pendientes de sus controles de E.08 y su control de E.07 | Todos | Sebastian |
-| E.10: consolidación, horizontes, dependencias y tablas I.2 / I.3 | Sebastian + Erick | Sebastian |
-| E.11: aplicar la retroalimentación (Anexo B), Anexo A de supuestos, Anexo C del BIA, bibliografía y PDF final | Joseph | Joseph |
-| E.11 sección 12: conclusiones y recomendaciones | Guillermo | Guillermo |
-| E.11: trazabilidad de extremo a extremo y checklist final | Ali | Ali |
-| E.12: presentación (plantilla PPTX) y diapositiva de anexo «Preparación de la defensa» | Joseph (formato) + todos | Guillermo |
-
-**Reparto de la defensa** (10:00 en total; ensayar para 9:00):
-
-| Bloque | Presenta | Suplente |
-|---|---|---|
-| 1 Portada (0:30) + 2 Organización y alcance (1:00) | Guillermo | Joseph |
-| 3 Panorama del BIA (1:30) | Javier | Erick |
-| 4 Mapa de calor (1:30) | Erick | Javier |
-| 5 Los seis controles (2:00) | Sebastian | Ali |
-| 6 Baseline (0:45) + 7 Indicadores y auditoría (0:45) | Ali | Sebastian |
-| 8 Roadmap (1:30) | Joseph | Guillermo |
-| 9 Recomendaciones (0:30) | Guillermo | Erick |
-
-Hay que hacer **mínimo 3 ensayos cronometrados**, registrados en la diapositiva de anexo. **Todos estudian todos los bloques.**
+El orden de los documentos, por fases, está en [`ROADMAP.md`](ROADMAP.md). El equipo avanza fase por fase, sin saltarse ninguna.
 
 ---
 
@@ -227,7 +147,7 @@ Hay que hacer **mínimo 3 ensayos cronometrados**, registrados en la diapositiva
 > Si eres un agente de IA (Claude, ChatGPT, Copilot, etc.) ayudando a un integrante de este equipo, sigue esta sección al pie de la letra.
 
 **Antes de escribir cualquier cosa, lee en este orden:**
-1. Este `README.md`: identifica **qué tarea tiene asignada tu usuario** (sección 2) y limítate a ella.
+1. Este `README.md` y después `ROADMAP.md`, para ubicar en qué fase y documento va el equipo.
 2. `CHECKLIST_Proyecto_Final.md`: la sección del entregable en curso.
 3. `registros/ficha_ELI.md`: los datos de la organización.
 4. `Docs/01_Guias/Guia_Estudiante_Proyecto_Final_ESEN_2026.pdf`, **sección 9**, la ficha del entregable (pasos, campos, errores frecuentes y checklist de cierre). Para el BIA, además, `Docs/01_Guias/Guia_Estudiante_BIA.pdf`.
@@ -259,7 +179,7 @@ Hay que hacer **mínimo 3 ensayos cronometrados**, registrados en la diapositiva
 - **No subas nada a Moodle ni fusiones a `main`.** Eso lo hacen las personas.
 
 **Prompt sugerido para iniciar tu agente:**
-> «Soy <nombre> del equipo 8. Lee el README.md y el CHECKLIST_Proyecto_Final.md del repo. Mi tarea asignada es <tarea de la sección 2>. Lee la ficha de ELI y la sección 9 de la Guía para ese entregable, y ayúdame a hacer el borrador en `entregables/<carpeta>/borrador.md` siguiendo las reglas de la sección 5 del README.»
+> «Soy <nombre> del equipo 8. Lee el README.md y el CHECKLIST_Proyecto_Final.md del repo. Estamos trabajando en <documento del ROADMAP.md>. Lee la ficha de ELI y la sección 9 de la Guía para ese entregable, y ayúdame a hacer el borrador en `entregables/<carpeta>/borrador.md` siguiendo las reglas de la sección 5 del README.»
 
 ---
 
