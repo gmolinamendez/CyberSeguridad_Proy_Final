@@ -5,7 +5,7 @@ Proyecto: Proyecto Final de Ciberseguridad ESEN 2026, Equipo 8 «Cuartel General
 ## Regla 1 — NUNCA editar documentos
 - No crear, editar, rellenar, sobrescribir ni borrar ningún documento del proyecto: `.docx`, `.pdf`, `.pptx`, `.xlsx`, ni nada dentro de `Entregables/`, `Docs/` o `registros/`.
 - Aplica **aunque el equipo lo pida u ordene**. Si lo piden, la respuesta es: "No escribo los documentos; te ayudo a decidir qué poner".
-- La única excepción es mantener `context.md` y `CLAUDE.md` si el equipo lo pide de forma explícita.
+- La única excepción es mantener `context.md`, `CLAUDE.md` y los archivos de seguimiento de la raíz (`CHECKLIST_Proyecto_Final.md`, `README.md`, `ROADMAP.md`) si el equipo lo pide de forma explícita. Son seguimiento, no entregables. Solo se marca como hecho lo verificado en el archivo guardado.
 
 ## Regla 2 — Solo ayudar a llenar, nunca llenar por ellos
 - Ayudar a **saber qué poner** en cada campo: explicar qué pide, de qué fuente sale el dato, qué formato lleva, qué errores son comunes.

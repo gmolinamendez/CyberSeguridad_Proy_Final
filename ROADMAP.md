@@ -4,6 +4,21 @@ En qué **orden** se hace cada documento y qué necesita para arrancar. Cada doc
 
 > Todos los archivos citados están en `Docs/`. Plantillas: `03_Plantillas_Entregables/` (E01–E12) y `04_Anexos_BIA/` (BIA_P01–P07). Ejemplo resuelto del mismo documento: `06_Proyecto_Ejemplo_ENSA/`.
 
+
+## Estado al 2026-11-09
+
+| Fase | Documento | Estado |
+|---|---|---|
+| 0 | E.01, E.02 | 🟡 v1.0 llenas; faltan supuestos, plan de trabajo y organización asignada |
+| 1 | BIA_P01, P02, P03 | 🟡 llenos, con pulido pendiente |
+| 1 | BIA_P04 | ⏳ en cierre (TMS duplicado, SPOF sin ID, §5 repetido) |
+| 1 | BIA_P05, P06, P07, E.03, E.02 v1.1 | ⏳ Joseph; esperan los datos de BIA_P02 |
+| 2 | E.04 | ⬜ plantilla copiada; puede empezar con BIA_P04 |
+| 3 | E.05, E.06 | ⬜ E.05 con plantilla copiada y vacía; E.06 sin empezar |
+| 4–6 | E.07 a E.12 y defensa | ⬜ |
+
+Detalle por casilla en `CHECKLIST_Proyecto_Final.md`.
+
 ---
 
 ## Antes de empezar (una sola vez)

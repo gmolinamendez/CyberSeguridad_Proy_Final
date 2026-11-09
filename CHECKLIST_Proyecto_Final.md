@@ -4,6 +4,27 @@ Este checklist se construyó leyendo el paquete **PF_V2.2** completo: las guías
 
 > ⚠️ **Fechas — revisar YA.** Según el calendario oficial, **H1 (25-sep / 2-oct) y H2 (16-oct) ya vencieron**. El próximo hito es **H3, el viernes 23 de octubre**: E.05, E.06 y las versiones 1.1 de E.03, E.04 y BIA_P07. Si el equipo todavía no tiene empresa asignada, confirmen con el docente qué calendario les aplica antes de planificar.
 
+
+## Estado del proyecto · 2026-11-09
+
+Leyenda: ✅ hecho y verificado en el `.docx` · 🟡 hecho con pulido pendiente (⚠️ en el checklist) · ⏳ en curso o con huecos · ⬜ sin empezar. Un ✅ significa que lo leí en el archivo guardado; lo que está solo en una copia sin guardar no cuenta.
+
+| Documento | Estado | Qué falta |
+|---|---|---|
+| E.01 Acta | 🟡 v1.0 llena (27-oct) | Bloque «Organización asignada», plan de trabajo (solo la fila de E.01), acuerdos de reunión y repo, 4 casillas de compromiso, tabla de supuestos; redacción «más de 200.000$» (la ficha dice USD 240 000 cubiertos en parte por seguro) |
+| E.02 Compromiso y alcance | 🟡 v1.0 llena (27-oct) | Tabla de supuestos (Unidad de Seguridad, firmantes simulados, presupuesto 2028–2029 sujeto a aprobación), typos, y A.3 en la v1.1 tras BIA_P05 |
+| BIA_P01 Inventario | 🟡 guardado el 8-nov | Nombres de proceso iguales a P05 (fila 6: «Gestionar conexiones con terceros»), áreas y dueños, «EDI/SFTP», redacción de las exclusiones 2 y 3 y del cierre, S-nn de ventanas de P-05/P-06 y del wifi |
+| BIA_P02 Ficha BIA | 🟡 métricas, costos y AV/EF/SLE listos | IDs SLE-01…05 y «18k»/«60k», destinatarios en §3, «Igual» en §7, filas de dueños en §11, S-nn y typos |
+| BIA_P03 Matriz | 🟡 matriz y umbral listos | «Ventas anuales» en blanco (USD 95 000 000), límites con formato uniforme, «(simulado)» en el aprobador |
+| BIA_P04 Dependencias | ⏳ | TMS duplicado, WMS suelto, IDs SPOF-01…06 en las celdas «Sí», §5 con la 2.ª y la 3.ª tabla iguales, §4 y §6 con typos, enlaces oficiales de fin de soporte |
+| BIA_P05–P07, E.03 | ⏳ Joseph | Esperan los datos de P02 (§4 y §9) y los S-nn |
+| E.04, E.05 | ⬜ plantillas copiadas el 9-nov, vacías | E.04 puede empezar con BIA_P04; E.05 espera a E.03, E.04 y los SPOF de BIA_P06 |
+| E.06 a E.12 | ⬜ | — |
+
+**Decisiones abiertas del equipo:** (D1) nombres estándar de los 6 procesos en P01–P07 · (D2) desde qué S-nn arranca el BIA, según cuántos declaren E.01 y E.02 · (D3) MTPD de P-05 y P-06 (propuesta: 10 h) · (D4) fechas coherentes: umbral aprobado 29/10 y matriz 30/10.
+
+**Registros:** `registros/` solo tiene `ficha_ELI.md`. Los archivos `supuestos.md`, `ids.md` y `decisiones.md` que cita el README **todavía no existen**.
+
 ---
 
 ## 0. Lo esencial en una página
@@ -79,16 +100,16 @@ La comparación sale de los datos del catálogo. Los factores que más trabajo a
 ## 2. Arranque del equipo
 
 - [ ] Leer la **Guía rápida** y la **Guía del Estudiante del Proyecto Final**, como mínimo las secciones 1–8 y el **Anexo J** (rúbrica).
-- [ ] Equipo de **6 integrantes** con los **5 roles**:
-  - [ ] **Consultor líder:** plan, cronograma, relación con el docente, consolida decisiones.
-  - [ ] **Analista de riesgos:** BIA (E.03), activos (E.04), riesgos (E.05).
-  - [ ] **Arquitecto de controles:** E.07, E.08, E.09 y roadmap.
-  - [ ] **Oficial de documentación:** redacción, consistencia, ensamblaje de E.11, versiones.
-  - [ ] **Oficial de calidad:** corre los checklists de cierre y audita la trazabilidad riesgo → control → indicador.
-  - [ ] Dos integrantes **comparten** el rol de analista de riesgos o el de arquitecto de controles, con un **responsable declarado** en el acta.
+- [x] Equipo de **6 integrantes** con los **5 roles**:
+  - [x] **Consultor líder:** plan, cronograma, relación con el docente, consolida decisiones.
+  - [x] **Analista de riesgos:** BIA (E.03), activos (E.04), riesgos (E.05).
+  - [x] **Arquitecto de controles:** E.07, E.08, E.09 y roadmap.
+  - [x] **Oficial de documentación:** redacción, consistencia, ensamblaje de E.11, versiones.
+  - [x] **Oficial de calidad:** corre los checklists de cierre y audita la trazabilidad riesgo → control → indicador.
+  - [x] Dos integrantes **comparten** el rol de analista de riesgos o el de arquitecto de controles, con un **responsable declarado** en el acta.
 - [ ] Imprimir o llenar la **hoja de control** (`Docs/05_Control_Entregables/`): equipo, organización, IG, integrantes, responsable por entregable y V.º B.º.
 - [ ] Definir el día y la hora de la **reunión semanal** del equipo y de la **asesoría semanal** (30 min) con el docente.
-- [ ] Definir el **repositorio de trabajo** y el control de versiones.
+- [x] Definir el **repositorio de trabajo** y el control de versiones. _(repo Git del equipo en `Cyber/`)_
 - [ ] Llevar un **registro maestro de supuestos** (hoja compartida S-01, S-02…) desde el día 1, para no romper la numeración global.
 - [ ] Llevar un **registro de IDs**: procesos P-nn, activos A-nn, riesgos R-nn, escenarios SLE-nn, supuestos S-nn.
 - [ ] Hojear el **proyecto ejemplo ENSA** (`Docs/06_Proyecto_Ejemplo_ENSA/`) para calibrar el formato y la extensión. Como referencia, ENSA tuvo:
@@ -104,16 +125,16 @@ La comparación sale de los datos del catálogo. Los factores que más trabajo a
 Plantilla: `E01_Acta_Equipo_Seleccion_Empresa.docx` · Moodle: `E01_Acta_Equipo_Seleccion_Empresa_<Equipo>.docx/.pdf`
 Fechas: v1.0 el **viernes 25-sep**; v1.1 (con la organización asignada) el **viernes 2-oct**, junto con E.02.
 
-- [ ] Llenar la tabla de identificación del equipo: equipo, organización, IG, integrantes, fecha y versión.
-- [ ] Llenar la tabla de integrantes: nombre, **carné**, **correo institucional** y rol. Los 5 roles deben estar cubiertos.
-- [ ] Registrar las 3 preferencias con **n.º de catálogo, nombre e IG**, en orden.
-- [ ] Declarar **3–4 criterios** de orden y cómo se aplicaron a cada opción. Por ejemplo: afinidad con el sector, lo que la ficha anticipa (procesos, sistemas, datos personales, tarjeta), madurez actual e interés profesional.
-- [ ] Escribir un **párrafo de justificación** del orden.
-- [ ] **v1.1:** organización asignada, n.º, IG, fecha de asignación (registro del lunes 28-sep) y, si aplica, autorización para compartir organización.
-- [ ] Llenar el plan de trabajo: responsable de cada entregable E.01–E.12 y fecha de revisión del oficial de calidad.
-- [ ] Marcar las **4 casillas de compromiso**: perfil y ficha fijos, baseline hacia el IG asignado, dominio completo de cada integrante y conocimiento del calendario y la rúbrica.
-- [ ] Firmas y fecha de todos.
-- [ ] Sección de supuestos (aunque sea «sin supuestos»).
+- [x] Llenar la tabla de identificación del equipo: equipo, organización, IG, integrantes, fecha y versión.
+- [x] Llenar la tabla de integrantes: nombre, **carné**, **correo institucional** y rol. Los 5 roles deben estar cubiertos.
+- [x] Registrar las 3 preferencias con **n.º de catálogo, nombre e IG**, en orden.
+- [x] Declarar **3–4 criterios** de orden y cómo se aplicaron a cada opción. Por ejemplo: afinidad con el sector, lo que la ficha anticipa (procesos, sistemas, datos personales, tarjeta), madurez actual e interés profesional.
+- [x] Escribir un **párrafo de justificación** del orden.
+- [ ] **v1.1:** organización asignada, n.º, IG, fecha de asignación (registro del lunes 28-sep) y, si aplica, autorización para compartir organización. ⏳ bloque «Organización asignada» vacío en el .docx
+- [ ] Llenar el plan de trabajo: responsable de cada entregable E.01–E.12 y fecha de revisión del oficial de calidad. ⏳ solo está llena la fila de E.01
+- [ ] Marcar las **4 casillas de compromiso**: perfil y ficha fijos, baseline hacia el IG asignado, dominio completo de cada integrante y conocimiento del calendario y la rúbrica. ⏳ las casillas siguen sin marcar
+- [x] Firmas y fecha de todos.
+- [ ] Sección de supuestos (aunque sea «sin supuestos»). ⏳ la tabla trae solo la fila de ejemplo
 - [ ] **Checklist de cierre de la guía:** acta completa con carné, correo y rol · 3 preferencias con n.º e IG correctos + criterios + párrafo · v1.1 con la organización asignada entregada con E.02 · compromisos marcados y firmas · v1.0 entregada el 25-sep.
 
 ### E.02 — Compromiso de la dirección y alcance del SGSI · H1 · J.1.2 (2 %) · ~6 h
@@ -122,29 +143,29 @@ Fechas: v1.0 el **viernes 2-oct**; **v1.1 (sección A.3)** junto con E.03 el **v
 Fundamento: ISO/IEC 27001:2022, cláusulas 4 y 5; función Gobernar de CSF 2.0.
 
 **A.1 Declaración de compromiso.** Se redacta en prosa completa en la 2.ª columna, reemplazando la descripción de la plantilla.
-- [ ] **Encabezado:** organización, fecha y firmantes simulados (dirección general y responsable de seguridad).
-- [ ] **Contexto del negocio** en 3–5 líneas: misión, procesos que generan ingresos y dependencia tecnológica, sacados del perfil y la ficha.
+- [x] **Encabezado:** organización, fecha y firmantes simulados (dirección general y responsable de seguridad).
+- [x] **Contexto del negocio** en 3–5 líneas: misión, procesos que generan ingresos y dependencia tecnológica, sacados del perfil y la ficha.
 - [ ] **Organigrama** tomado de la fila «Organigrama» del bloque «Organización y presupuesto» de la ficha, con Legal, Auditoría y RR. HH. donde la ficha los ubica.
   - [ ] Si no existe una función de seguridad, **crearla como supuesto** (unidad y cargo). Se usa como firmante aquí y como rol en E.06.
-- [ ] **Declaración de compromiso** en primera persona institucional: seguridad como prioridad, recursos y autoridad asignados, adopción de **CIS Controls v8.1 (2024) e ISO/IEC 27001:2022**.
-- [ ] **3–5 objetivos de seguridad medibles**, cada uno con verbo, meta, proceso del perfil y **fecha absoluta** contada desde el arranque del **lunes 4-ene-2027**. Ejemplo: «al 30 de junio de 2027». Nada de «en seis meses».
-- [ ] **Compromisos concretos:** presupuesto por año (inversión y operación) y personal **copiados tal cual** de la ficha, más la frecuencia de revisión por la dirección y el apoyo al PDCA.
+- [x] **Declaración de compromiso** en primera persona institucional: seguridad como prioridad, recursos y autoridad asignados, adopción de **CIS Controls v8.1 (2024) e ISO/IEC 27001:2022**.
+- [x] **3–5 objetivos de seguridad medibles**, cada uno con verbo, meta, proceso del perfil y **fecha absoluta** contada desde el arranque del **lunes 4-ene-2027**. Ejemplo: «al 30 de junio de 2027». Nada de «en seis meses».
+- [x] **Compromisos concretos:** presupuesto por año (inversión y operación) y personal **copiados tal cual** de la ficha, más la frecuencia de revisión por la dirección y el apoyo al PDCA.
 
 **A.2 Alcance del SGSI**
-- [ ] **Procesos cubiertos**, con el nombre exacto del catálogo. Los procesos críticos del perfil son el mínimo.
-- [ ] Unidades y sedes.
-- [ ] Sistemas e infraestructura, del perfil.
-- [ ] **Exclusiones justificadas**, una línea por exclusión. Un alcance sin exclusiones se considera error.
-- [ ] **Partes interesadas y requisitos:**
-  - [ ] Clientes, reguladores y terceros.
+- [x] **Procesos cubiertos**, con el nombre exacto del catálogo. Los procesos críticos del perfil son el mínimo.
+- [x] Unidades y sedes.
+- [x] Sistemas e infraestructura, del perfil.
+- [x] **Exclusiones justificadas**, una línea por exclusión. Un alcance sin exclusiones se considera error.
+- [x] **Partes interesadas y requisitos:**
+  - [x] Clientes, reguladores y terceros.
   - [ ] Normas de la fila «Cumplimiento que el cliente reconoce» de la ficha.
-  - [ ] **LPDP (D.L. 144/2024), art. 25:** notificación en **72 h** a la **Agencia de Ciberseguridad del Estado**, la **Fiscalía General de la República** y los **titulares afectados**.
-  - [ ] **Ley de Ciberseguridad (D.L. 143/2024)** con su nota de ámbito (art. 2). Si la organización es privada y presta un servicio esencial, se registra «sujeto a calificación como operador de infraestructura crítica» (art. 8 f).
+  - [x] **LPDP (D.L. 144/2024), art. 25:** notificación en **72 h** a la **Agencia de Ciberseguridad del Estado**, la **Fiscalía General de la República** y los **titulares afectados**.
+  - [x] **Ley de Ciberseguridad (D.L. 143/2024)** con su nota de ámbito (art. 2). Si la organización es privada y presta un servicio esencial, se registra «sujeto a calificación como operador de infraestructura crítica» (art. 8 f).
   - [ ] Si es una entidad pública, aplica el Título III de la LPDP (art. 2). Si opera un registro público o el DUI, aplica la exclusión del art. 3 d).
   - [ ] Una norma sectorial que no esté en el perfil ni en la ficha se declara como supuesto.
 
 **A.3 Revisión del alcance tras el BIA (v1.1)**
-- [ ] Una fila por cada diferencia entre los procesos cubiertos y la clase que asigna BIA_P05, con la decisión (mantener o ajustar) y su justificación.
+- [ ] Una fila por cada diferencia entre los procesos cubiertos y la clase que asigna BIA_P05, con la decisión (mantener o ajustar) y su justificación. ⏳ A.3 se llena en la v1.1, después de BIA_P05
 
 - [ ] **Checklist de cierre:** marcos + autoridad + recursos de la ficha + frecuencia de revisión · 3–5 objetivos medibles con fecha absoluta · alcance con los nombres del catálogo · exclusiones justificadas · LPDP art. 25 + Ley de Ciberseguridad · v1.1 con A.3.
 
@@ -156,10 +177,10 @@ Método: **Guía del Estudiante del BIA**, 13 pasos. **ARO/ALE/ROSI NO van aquí
 > El tiempo se va sobre todo en BIA_P02 (~10 h) y BIA_P03 (~6 h). Las entrevistas son **simuladas**: las respuestas del dueño del proceso se toman del bloque «Operación por proceso» de la ficha (horario, personal, alterno, penalizaciones y consecuencias en los 5 cortes).
 
 **BIA_P01 — Inventario de procesos (pasos 1–2)**
-- [ ] Identificación: empresa, sector y tamaño, equipo, analista y fecha.
-- [ ] Censo de procesos, **nombrados con verbo + objeto** (procesos, no sistemas). Los críticos del perfil son el mínimo, más los procesos de **soporte** que los alimentan.
-- [ ] Por proceso: área, dueño (nombre y cargo), servicio que entrega, destinatario, sistemas de soporte y ventana de operación.
-- [ ] Sección 4: alcance y **exclusiones declaradas**.
+- [x] Identificación: empresa, sector y tamaño, equipo, analista y fecha. ⚠️ _pulido pendiente (ver estado)_
+- [x] Censo de procesos, **nombrados con verbo + objeto** (procesos, no sistemas). Los críticos del perfil son el mínimo, más los procesos de **soporte** que los alimentan. ⚠️ _pulido pendiente (ver estado)_
+- [x] Por proceso: área, dueño (nombre y cargo), servicio que entrega, destinatario, sistemas de soporte y ventana de operación. ⚠️ _pulido pendiente (ver estado)_
+- [x] Sección 4: alcance y **exclusiones declaradas**. ⚠️ _pulido pendiente (ver estado)_
 
 **BIA_P05 — Precalificación y priorización (paso 7). Se hace temprano porque decide qué procesos llevan ficha completa.**
 - [ ] **Pesos** de las 5 categorías (financiero, operativo, legal/regulatorio, reputacional, seguridad de las personas). Deben **sumar 100 %**, con su fundamento y la aprobación de la dirección simulada.
@@ -173,45 +194,45 @@ Método: **Guía del Estudiante del BIA**, 13 pasos. **ARO/ALE/ROSI NO van aquí
 - [ ] Un proceso crítico por **confidencialidad** que puntúe bajo **conserva su clase**. La criticidad por confidencialidad va como **brecha** en BIA_P06 y E.05 la trata como riesgo.
 
 **BIA_P02 — Ficha por proceso (pasos 3–5, 8, 11). Una por cada proceso CRÍTICO.**
-- [ ] Sección 2: método de levantamiento (entrevista, cuestionario, taller, revisión documental, validación del dueño, aprobación de la dirección).
-- [ ] Sección 3: identificación del proceso.
-- [ ] Sección 4: **MTPD (lo fija el negocio), RTO, WRT, RPO y MBCO.**
-  - [ ] Comprobar **RTO + WRT ≤ MTPD**. Si no se cumple, la ficha no avanza y se corrige.
-- [ ] Sección 5: MBCO en términos verificables (qué se atiende, con qué volumen y con qué personal).
-- [ ] Sección 6: **períodos pico** y factor de agravamiento. Se valora el peor escenario temporal.
-- [ ] Sección 7: **procedimiento alterno**, quién lo ejecuta, recursos, **duración máxima sostenible**, cómo se verificó y esfuerzo de reconstrucción (alimenta el WRT).
-- [ ] Sección 8: **costo por hora y por día**: ingresos no percibidos, personal improductivo u horas extra, penalizaciones, costo del alterno y otros. Usar el costo cargado por hora y el personal de la ficha.
-- [ ] Sección 9: **AV, EF y SLE = AV × EF**, con un **SLE-nn por escenario** (cifrado o indisponibilidad, exposición de datos, fraude, sabotaje).
-  - [ ] SLE de **exposición de datos**: AV = titulares de la ficha × (costo de notificar + otros costos por titular), y EF = proporción de titulares expuestos.
-- [ ] Sección 10: **método de valoración** (cuantitativo, cualitativo o semicuantitativo) con su justificación.
-- [ ] Sección 11: validación con firmas simuladas.
+- [x] Sección 2: método de levantamiento (entrevista, cuestionario, taller, revisión documental, validación del dueño, aprobación de la dirección). ⚠️ _pulido pendiente (ver estado)_
+- [x] Sección 3: identificación del proceso. ⚠️ _pulido pendiente (ver estado)_
+- [x] Sección 4: **MTPD (lo fija el negocio), RTO, WRT, RPO y MBCO.**
+  - [x] Comprobar **RTO + WRT ≤ MTPD**. Si no se cumple, la ficha no avanza y se corrige.
+- [x] Sección 5: MBCO en términos verificables (qué se atiende, con qué volumen y con qué personal). ⚠️ _pulido pendiente (ver estado)_
+- [x] Sección 6: **períodos pico** y factor de agravamiento. Se valora el peor escenario temporal.
+- [x] Sección 7: **procedimiento alterno**, quién lo ejecuta, recursos, **duración máxima sostenible**, cómo se verificó y esfuerzo de reconstrucción (alimenta el WRT). ⚠️ _pulido pendiente (ver estado)_
+- [x] Sección 8: **costo por hora y por día**: ingresos no percibidos, personal improductivo u horas extra, penalizaciones, costo del alterno y otros. Usar el costo cargado por hora y el personal de la ficha. ⚠️ _pulido pendiente (ver estado)_
+- [x] Sección 9: **AV, EF y SLE = AV × EF**, con un **SLE-nn por escenario** (cifrado o indisponibilidad, exposición de datos, fraude, sabotaje). ⚠️ _pulido pendiente (ver estado)_
+  - [x] SLE de **exposición de datos**: AV = titulares de la ficha × (costo de notificar + otros costos por titular), y EF = proporción de titulares expuestos. ⚠️ _pulido pendiente (ver estado)_
+- [x] Sección 10: **método de valoración** (cuantitativo, cualitativo o semicuantitativo) con su justificación. ⚠️ _pulido pendiente (ver estado)_
+- [x] Sección 11: validación con firmas simuladas. ⚠️ _pulido pendiente (ver estado)_
 - [ ] Un proceso **importante** que trata los datos personales que cuantifica la ficha lleva **además** las secciones 3, 8 y 9.
 
 **BIA_P03 — Matriz de impacto × tiempo (paso 4). Una por proceso crítico.**
-- [ ] Anotar las **ventas o ingresos anuales de la ficha** y calcular los límites en USD de la escala (porcentajes fijos de la plantilla):
+- [x] Anotar las **ventas o ingresos anuales de la ficha** y calcular los límites en USD de la escala (porcentajes fijos de la plantilla): ⚠️ _pulido pendiente (ver estado)_
   - nivel 1: <0,01 %
   - nivel 2: 0,01–0,05 %
   - nivel 3: 0,05–0,25 %
   - nivel 4: 0,25–1 %
   - nivel 5: >1 %
-- [ ] Escribir el criterio verbal de cada nivel para las otras 4 categorías. Si los dos criterios difieren, gana el mayor.
-- [ ] Llenar la matriz de **5 categorías × 5 cortes** (4 h, 24 h, 72 h, 1 semana, 1 mes) y el impacto consolidado de cada corte (el máximo).
-- [ ] Declarar el **umbral de tolerancia** antes de ver la matriz, con quién lo aprueba y la fecha.
-- [ ] Registrar el primer corte que cruza el umbral, la categoría que lo cruza, el **MTPD derivado** frente al **declarado** y la explicación de la diferencia.
-- [ ] Describir el **punto de inflexión** de la curva y el mecanismo que lo explica.
+- [x] Escribir el criterio verbal de cada nivel para las otras 4 categorías. Si los dos criterios difieren, gana el mayor.
+- [x] Llenar la matriz de **5 categorías × 5 cortes** (4 h, 24 h, 72 h, 1 semana, 1 mes) y el impacto consolidado de cada corte (el máximo).
+- [x] Declarar el **umbral de tolerancia** antes de ver la matriz, con quién lo aprueba y la fecha.
+- [x] Registrar el primer corte que cruza el umbral, la categoría que lo cruza, el **MTPD derivado** frente al **declarado** y la explicación de la diferencia.
+- [x] Describir el **punto de inflexión** de la curva y el mecanismo que lo explica.
 
 **BIA_P04 — Dependencias y recursos (paso 6). Una por proceso crítico.**
-- [ ] Las **6 clases**, con al menos una fila por clase:
+- [x] Las **6 clases**, con al menos una fila por clase: ⚠️ _pulido pendiente (ver estado)_
   - personas y competencias
   - aplicaciones y sistemas
   - datos y registros vitales
   - proveedores y terceros
   - instalaciones
   - equipamiento y servicios básicos
-- [ ] Por dependencia: recurso mínimo en el MBCO, **SPOF sí/no**, alternativa y observaciones.
-- [ ] Recursos mínimos consolidados, operación normal frente a MBCO: personas, estaciones, red, instalación, aplicaciones y datos, insumos.
-- [ ] Interdependencias entre procesos (quién alimenta a quién).
-- [ ] Secuencia de recuperación propuesta.
+- [ ] Por dependencia: recurso mínimo en el MBCO, **SPOF sí/no**, alternativa y observaciones. ⏳ faltan los IDs SPOF-nn en las celdas «Sí» y el TMS sigue duplicado
+- [x] Recursos mínimos consolidados, operación normal frente a MBCO: personas, estaciones, red, instalación, aplicaciones y datos, insumos. ⚠️ _pulido pendiente (ver estado)_
+- [ ] Interdependencias entre procesos (quién alimenta a quién). ⏳ la 2.ª y la 3.ª tabla de §5 son iguales; falta la del WMS
+- [x] Secuencia de recuperación propuesta. ⚠️ _pulido pendiente (ver estado)_
 
 **BIA_P06 — Supuestos, SPOF y brechas (pasos 6, 11, 12)**
 - [ ] Registro de supuestos con ID **S-nn global**, valor, origen y fecha, y escenarios **mínimo / esperado / máximo** para **AV y EF**. El ARO se varía en E.05.

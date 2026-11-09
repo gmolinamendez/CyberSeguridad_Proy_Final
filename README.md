@@ -7,18 +7,14 @@ Este README define **quién hace qué, cuándo y cómo se trabaja en el repo**, 
 
 ---
 
-## 0. Situación al 18-oct-2026 — leer primero
+## 0. Situación al 9-nov-2026 — leer primero
 
-- **No hemos entregado nada.** Según el calendario oficial, ya vencieron:
-  - E.01 (25-sep)
-  - E.02 (2-oct)
-  - E.03 + BIA_P01–P07 y E.04 (16-oct)
-- El **próximo hito oficial es H3, el viernes 23-oct**: E.05, E.06 y las versiones 1.1 de E.03, E.04 y BIA_P07.
-- **Plan:** esta semana hacemos un **sprint de recuperación** y entregamos de E.01 a E.06 el viernes 23-oct.
-- **Lunes 19-oct, primera hora (Guillermo):**
-  1. Registrar ELI en el aula virtual. **La primera solicitud válida bloquea la organización** y otro equipo podría tomarla.
-  2. Escribir al docente para confirmar la asignación de ELI y si acepta la entrega tardía de E.01–E.04 (y con qué penalización).
-  3. Avisar al grupo apenas haya respuesta. Si el docente indica otra cosa, este plan se ajusta.
+- **Entregables con fecha vencida** según el calendario oficial: E.01 (25-sep), E.02 (2-oct), E.03 + BIA_P01–P07 y E.04 (16-oct), E.05, E.06 y las versiones 1.1 (23-oct) y E.07 (30-oct). La forma de entregar lo atrasado la confirma el docente.
+- **Hecho:** E.01 y E.02 en v1.0; BIA_P01 a P04 llenos y en pulido (ver `CHECKLIST_Proyecto_Final.md`, bloque «Estado del proyecto»); plantillas E.03 a E.05 copiadas a `Entregables/`.
+- **En curso:** BIA_P05 a P07 y E.03 (Joseph, esperan los datos de BIA_P02 §4 y §9); cierre de BIA_P04 (Guillermo); E.04 (Sebastian) arranca con BIA_P04.
+- **Siguiente:** E.05 (Erick) cuando E.03, E.04 y los SPOF de BIA_P06 estén cerrados, luego E.06 y la cadena E.07 → E.12.
+- **Pendiente con el docente (Guillermo):** confirmar la asignación de ELI y la fecha real de entrega de lo atrasado.
+- **Registros:** crear `registros/supuestos.md`, `ids.md` y `decisiones.md` (hoy solo existe `ficha_ELI.md`). Decisiones abiertas del BIA: nombres estándar de procesos, desde qué S-nn arranca el BIA, MTPD de P-05/P-06 y fechas del umbral.
 
 ---
 
